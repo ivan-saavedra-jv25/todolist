@@ -1,0 +1,32 @@
+.mvh-84{
+    min-height: 84vh;
+}
+
+/* Agrega una transición suave al body y a los elementos que cambian de color */
+body,
+.bg-dark,
+.bg-white,
+.table-dark,
+.table,
+.text-light,
+.text-dark {
+  transition: background-color 0.4s, color 0.4s;
+}
+
+/* Ejemplo de modo oscuro */
+body.dark-mode {
+  background-color: #181a1b !important;
+  color: #f8f9fa !important;
+}
+
+body.dark-mode {
+  background-color: #121212;
+  color: #f1f1f1;
+}
+
+body.dark-mode .navbar,
+body.dark-mode .card,
+body.dark-mode .list-group-item {
+  background-color: #1e1e1e !important;
+  color: #ffffff !important;
+}
